@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios DOM</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            height: 100vh;
+        }
+        
+        div#area {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgreen;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font: normal 1.5em Arial;
+
+            
+        }
+        div#area > p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">interaja</div>
+    <script>
+        var a = window.document.getElementById('area');
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseleave', sair);
+
+        function clicar(){
+            a.innerText = 'Você clicou!';
+            a.style.backgroundColor = 'Yellow';
+     }
+      function entrar(){
+        a.innerText = 'Você entrou!';
+      }
+      function sair(){
+        a.innerText = 'Você Saiu!';
+        a.style.backgroundColor = 'lightgreen';
+      }
+    </script>
+</body>
+
+</html>
