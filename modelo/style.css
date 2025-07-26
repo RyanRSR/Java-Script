@@ -1,0 +1,23 @@
+body{
+    background: salmon;
+    font: normal 1.2em Arial;
+}
+        
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+    background-color: white;
+}
+        
+footer{
+    text-align: center;
+    color:white;
+}
