@@ -1,5 +1,5 @@
 body{
-    background: rgb(0, 173, 226);
+    background: salmon;
     font: normal 1.2em Arial;
 }
         
@@ -22,11 +22,3 @@ footer{
     color:white;
 }
 
-#foto{
-    text-align: center;
-    
-}
-#foto img{
-
-   
-}
